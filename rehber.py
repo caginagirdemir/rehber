@@ -15,7 +15,7 @@ def check_file(F_NAME):
     print("Parametre Bulunamadi!")
  
 
-os.chdir("/home/" + os.getenv('USER'))
+os.chdir("/home/" + os.getenv('USER') + "/rehber")
 os.system("git pull https://github.com/caginagirdemir/rehber")
 if(len(sys.argv) == 1):
     check_file("yardim")
