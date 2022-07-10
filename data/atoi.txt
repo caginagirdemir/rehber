@@ -8,4 +8,3 @@ ACIKLAMA
 	atoi() fonksiyonu, nptr ile gösterilen dizenin ilk bölümünü tam sayiya (int)'e dönüstürür.
 DONUS DEGERI
 	Cevrilmis olan degeri döndurur.
-	deneme
