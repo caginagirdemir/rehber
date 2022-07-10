@@ -25,3 +25,5 @@ elif(len(sys.argv) == 2):
         check_file("yardim")
     else:
         check_file(sys.argv[1].lower())
+
+        ###test
