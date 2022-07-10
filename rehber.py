@@ -3,7 +3,7 @@ from pydoc import pager
 import os
 
 def check_file(F_NAME):
-    os.chdir("/home/" + os.getenv('USER') + "/data/")
+    os.chdir("/home/" + os.getenv('USER') + "/rehber/data/")
     obj = os.scandir(".")
     for entry in obj :
         if (entry.is_file() & entry.name.endswith(".txt")):
