@@ -1,0 +1,10 @@
+42 Istanbul Rehber
+ADI
+	atoi - stringden bir tamsayiya cevirir
+OZET
+	#include <stdlib.h>
+	int atoi(const char *nptr)
+ACIKLAMA
+	atoi() fonksiyonu, nptr ile gösterilen dizenin ilk bölümünü tam sayiya (int)'e dönüstürür.
+DONUS DEGERI
+	Cevrilmis olan degeri döndurur.
