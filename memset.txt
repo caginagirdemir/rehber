@@ -1,0 +1,10 @@
+C Rehber
+ADI
+	memset - sabit bir bayt ile hafıza doldurma
+ÖZET
+	#include <string.h>
+	void *memset(void *s, int c, size_t n);
+AÇIKLAMA
+	memset() fonksiyonu s ile belirtilen hafıza alanının ilk n bayt kadar olan alanını sabit c baytı ile doldurur.
+DÖNÜŞ DEĞERİ
+	memset() fonksiyonu s hafıza alanını gösteren bir pointer döndürür.

@@ -1,0 +1,10 @@
+C Rehber
+ADI
+	atoi - stringden bir tamsayıya çevirir
+ÖZET
+	#include <stdlib.h>
+	int atoi(const char *nptr)
+AÇIKLAMA
+	atoi() fonksiyonu, nptr ile gösterilen dizenin ilk bölümünü tam sayıya (int)'e dönüştürür.
+DÖNÜŞ DEĞERİ
+	Çevrilmiş olan değeri döndürür.

@@ -1,0 +1,12 @@
+C Rehber
+ADI
+	strcmp, strncmp - iki stringi karşılaştırır
+ÖZET
+	#include <string.h>
+	int strcmp(const char *s1, const char *s2);
+	int strncmp(const char *s2, const char *s2, size_t n);
+AÇIKLAMA
+	strcmp() fonlsiyonu s1 ve s2 olan iki stringi karşılaştırır. Hafızada bulunduğu yer dikkate alınmaz (hafıza yeri farkında bir karşılaştırma için, strcoll(3)'a bakınız.). O sıfırdan daha büyük, eşit veya küçük bir değer döndürür eğer s1 sırasıyla s2 ile karşılaştırıldığında daha küçük, eşit veya daha büyük olduğunda.
+	strncmp() fonksiyonu benzerdir, sadece s1 ile s2 nin n bayt kadarını karşılaştırır.
+DÖNÜŞ DEĞERİ
+	Fonksiyon sıfırdan daha büyük, eşit veya küçük bir değer döndürür; eğer s1 sırasıyla s2 ile karşılaştırıldığında daha küçük, eşit veya daha büyük olduğunda.

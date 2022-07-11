@@ -1,0 +1,12 @@
+C Rehber
+ADI
+	memchr, memrchr - bir karakter için hafızayı tara
+ÖZET
+	#include <string.h>
+	void *memchr(const void *s, int c, size_t n);
+	void *memrchr(const void *s, int c, size_t n);
+AÇIKLAMA
+	memchr() fonksiyonu s ile işaret edilmiş hafıza alanını n bayt kadar c nin ilk örneği için tarar. İkiside c ve s ile gösterilmiş hafıza alanındaki baytlar unsigned char olarak yorumlanır.
+	memrchr() fonksiyonu s ile gösterilen hafıza alanında n kadar baytı tersten araması haricinde memchr() fonksiyonu gibi çalışır.
+DÖNÜŞ DEĞERİ
+	memchr() ve memrchr() fonksiyonları eşleşen baytın pointerını döndürür veya NULL döndürür eğer karakter verilen hafıza alanında yoksa.

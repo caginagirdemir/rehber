@@ -1,0 +1,11 @@
+C Rehber
+ADI
+	memcmp - hafıza alanlarını karşılaştırır
+ÖZET
+	#include <string.h>
+	int memcmp(const void *s1, const void *s2, size_t n);
+AÇIKLAMA
+	memcmp() fonksiyonu s1 ve s2 alanlarındaki ilk n kadar baytı (her biri unsgined char olarak yorumlanır.) karşılaştırır.
+DÖNÜŞ DEĞERİ
+	memcmp() fonksiyonu s1 nin ilk n baytında s2 den daha küçük, eşit veya daha büyükse; fonksiyonu sıfırdan daha küçük, eşit veya daha büyük bir değer döndürür.
+	Sıfır olmayan bir dönüş değeri için işaret, s1 ve s2'de farklılık gösteren ilk bayt çifti (unsigned char olarak yorumlanır.) arasındaki farkla belirlenir.

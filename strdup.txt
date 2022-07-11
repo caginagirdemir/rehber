@@ -1,0 +1,14 @@
+C Rehber
+ADI
+	strdup, strndup - bir stringi duplicate eder
+ÖZET
+	#include <string.h>
+	char *strdup(const char *s);
+	char *strndup(const char *s, size_t n);
+AÇIKLAMA
+	strdup() fonksiyonu s string duplicate eder ve yeni stringin pointerini döndürür. Hafıza için yeni string malloc(3) ile elde edilmiştir ve free(3) ile freed edilebilir.
+	strndup() fonksiyonu benzerdir, fakat baştan b bayt kadar kopyalar. Eğer s, n den daha büyükse, sadece n bayt kadar kopyalar, ve sonuna bir terminateing null bayt ('\0') eklenir.
+DÖNUŞ DEĞERİ
+	Başarılı çalıştığında, strdup() fonksiyonu duplicate edilmiş stringe ait pointer döndürür. Eger yetersiz hafıza varsa, hatanın sebebini göstermek için set edilmis bir errno ile birlikte NULL döndürür.
+HATALAR
+	ENOMEM Stringi duplicate etmek için yetersiz hafıza 

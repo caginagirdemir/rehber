@@ -1,0 +1,37 @@
+C Rehber
+ADI
+	isalnum, isalpha, isascii, isblank, isgraph, islower, isupper, isspace, isxdigit
+ÖZET
+	#include <ctype.h>
+
+	int isalnum(int c);
+	int isalpha(int c);
+	int isascii(int c);
+	int isblank(int c);
+	int isgraph(int c);
+	int islower(int c);
+	int isupper(int c);
+	int isspace(int c);
+	int isxdigit(int c);
+AÇIKLAMA
+	Bu fonksiyonlar bir unsgined char veya EOF değeri olması gereken c'nin mevcut bölgeye göre belirli bir karakter sınıfına düşüp düşmediğini kontrol eder.
+	isalnum()
+		değerin alfasayısal olup olmadığını kontrol eder; (isalpha(c) || isdigit(c)) ile eşdeğerdir.
+	isalpha()
+		değerin alfabetik olup olmadığını kontrol eder.
+	isascii()
+		değerin ASCII karakter kümesine uyan 7 bit işaretsiz bir karater değeri olup olmaığını kontrol eder.
+	isblank()
+		değerin boş bir karakter olup olmadığını kontrol eder, bu bir space veya bir tab.
+	isgraph()
+		değerin space hariç herhangi bir yazdırılabilir karakter olup olmadığını kontrol eder.
+	islower()
+		değerin küçük karakter olup olmadığını kontrol eder.
+	isupper()
+		değerin büyük karakter olup olmadığını kontrol eder.
+	isspace()
+		değerin boşluk karakteri olup olmadığını kontrol eder.
+	isxdigit()
+		değerin hexdecimal rakamlardan biri olup olmadığını kontrol eder. (0 1 2 3 4 5 6 7 8 9 A B C D E F)
+DÖNÜŞ DEĞERİ
+	Eğer değer sınıfa uygun ise sıfır olmayan bir değer döndürür, eğer uygun değilse sıfır döndürür.

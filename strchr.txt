@@ -1,0 +1,12 @@
+C Rehber
+ADI
+	strchr, strrchr - string içindeki karakterin yeri
+ÖZET
+	#include <string.h>
+	char *strchr(const char *s, int c);
+	char *strrchr(const char *s, int c);
+AÇIKLAMA
+	strchr() fonksiyonu s stringinin içinde c karakterini ilk gördüğü yerin adresini döndürür.
+	strrchr() fonksiyonu s stringinin içinde c karakterini son gördüğü yerin adresini döndürür.
+DÖNÜŞ DEĞERİ
+	strchr()  ve strrchr() fonksiyonları eşleşilen karakterein yerini gösteren pointer döndürür veya NULL döndürür c karateri bulunamadıysa. Stringi bitiren null baytı stringin parçası olarak kabul edilir, bundan dolayı eğer c '\0' olarak belirtilmişse, bu fonksiyonlar stringin bittiği noktanın pointerını döndürür.

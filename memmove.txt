@@ -1,0 +1,10 @@
+C Rehber
+ADI
+	memmove - hafıza alanı kopyalar
+ÖZET
+	#include <string.h>
+	void *memmove(void *dest, const void *src, size_t n);
+AÇIKLAMA
+	memmove() fonksiyonu src hafıza alanından n bayt kadar dest hafıza alanına kopyalar. Hafıza alanı çakışabilir: src hafıza alanında bulunanlar önce src veya dest ile çakışmayan bir geçici hafıza alanına kopyalanmış gibi gerçekleşir ve baytlar daha sonra geçici diziden dest e kopyalanır.
+DÖNÜŞ DEĞERİ
+	memmove() fonksiyonu dest hafıza alanının pointerını döndürür.

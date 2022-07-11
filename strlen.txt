@@ -1,0 +1,10 @@
+C Rehber
+ADI
+	strlen - bir string'in uzunlugunu hesaplar
+ÖZET
+	#include <string.h>
+	size_t strlen(const char *s);
+AÇIKLAMA
+	strlen() fonksiyonu s ile işaret edilen string'in uzunluğunu hesaplar, null bayt ('\0') değerini hariç tutar.
+DÖNUŞ DEĞERİ
+	strlen() fonksiyonu s tarafından işaret edilen string'e ait bayt sayısını dönüdürür.

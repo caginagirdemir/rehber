@@ -1,0 +1,10 @@
+C Rehber
+ADI
+	memcpy - hafıza alanını kopyalar
+OZET
+	#include <string.h>
+	void *memcpy(void *dest, const void *src, size_t n);
+AÇIKLAMA
+	memcpy() fonksiyonu src hafıza alanından n kadar baytı dest hafıza alanına kopyalar. Hafıza alanı çakışmamak zorundadır. Eğer hafızalar çakışıyorsa memmove(3) kullan.
+DÖNÜŞ DEĞERİ
+	memcpy() fonksiyonu dest i gösteren pointer döndürür.
