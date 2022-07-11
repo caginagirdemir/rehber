@@ -6,4 +6,4 @@ Program her sorguda bu sayfada yer alan dosyaları kontrol eder ve eğer değiş
 
 
 <img src="./img/rehber_img_1.png" width="250" height="250" />
-<img src="./img/rehber_img_1.png" width="250" height="250" />
+<img src="./img/rehber_img_2.png" width="300" height="250" />
